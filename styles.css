@@ -101,7 +101,32 @@ footer {
     padding: 1rem;
     margin-top: 1rem;
 }
+p {
+    font-family: sa;
+    font-size: 25px;
+}
+h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
 
+@media queries (max-width: 800px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-row section {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
 /* ===== Media Query (Medium) ===== */
 /* write a media query for a screen with at least 800px */
 /* change the body's grid template to 1fr 300px */
