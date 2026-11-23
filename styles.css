@@ -39,6 +39,21 @@ header p {
 
 nav {
     background-color: #020617;
+    nav {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a36b50;
+}
 }
 
 nav ul {
